@@ -1,4 +1,4 @@
-## How To Install
+## Installation
 
 -  Clone repository
 -  From this repository:
