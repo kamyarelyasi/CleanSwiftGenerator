@@ -32,6 +32,7 @@ extension ___VARIABLE_sceneName___DefaultConfigurator: ___VARIABLE_sceneName___C
         let router = ___VARIABLE_sceneName___Router()
         
         router.viewController = vc
+        router.dataStore = interactor
         presenter.viewController = vc
         interactor.presenter = presenter
         interactor.worker = worker
