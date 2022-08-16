@@ -5,7 +5,7 @@ Clean Swift Architecture(Uncle Bob's Clean Architecture applied to Swift languag
 ## Installation
 
 -  Clone repository
--  From this repository:
+-  From this repository in Terminal:
     
     To install:
     ```
