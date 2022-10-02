@@ -21,7 +21,7 @@ protocol ___VARIABLE_sceneName___DataPassing {
 class ___VARIABLE_sceneName___Router: NSObject, ___VARIABLE_sceneName___RoutingLogic, ___VARIABLE_sceneName___DataPassing {
     private let sceneFactory: SomeSceneFactory
     private weak var viewController: ___VARIABLE_sceneName___ViewController?
-    init(sceneFactory: SomeSceneFactory, viewController: ___VARIABLE_sceneName___ViewController) {
+    init(sceneFactory: SomeSceneFactory, viewController: ___VARIABLE_sceneName___ViewController?) {
         self.sceneFactory = sceneFactory
         self.viewController = viewController
     }
